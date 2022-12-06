@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
@@ -12,5 +13,9 @@ public class Manager : MonoBehaviour
     {
         newdirection += 10f;
         directionalLight.transform.Rotate(0.1f, 0.0f, 0.0f, Space.World);
+        if(Input.GetKeyDown("q"))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
