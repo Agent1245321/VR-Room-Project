@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/JacobPrice 2.unity
+    path: Assets/Scenes/Base House.unity
     guid: 2b67e26ceaac1e447bf7bc6f3e3c1ef0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d, type: 2}
